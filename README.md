@@ -39,7 +39,7 @@
 ---
 
 ## Sites Link
-[BMI Calculator](https://)
+[BMI Calculator](https://jelang-bmi-calculator.netlify.app/)
 
 ---
 
