@@ -15,8 +15,7 @@ body::before {
     top: 0;
     height: 100vh;
     z-index: -1;
-  }
-
+}
 
 #bag1 {
     display: flex;
@@ -29,7 +28,6 @@ body::before {
     margin-top: 0;
     color: rgb(0, 0, 0);
 }
-
 
 #bag2 {
     display: flex;
@@ -60,8 +58,8 @@ body::before {
     font-size: 16px;
 }
 
-
 .label {
+    margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
     color: rgba(0, 0, 0);
@@ -74,6 +72,39 @@ body::before {
 }
 .result b {
     text-decoration: underline;
-    text-shadow: 0 0 2px #c1c1c1;
-    color: #000000;
+    /* text-shadow: 0 0 2px #c1c1c1; */
+    color: rgb(255, 41, 41);
+}
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    body::before{
+        background-image: url("./assets/Slide\ 16_9\ -\ 2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: opacity(80%);
+    }
+
+    #bag1 h3 {
+        text-align: center;
+    }
+
+    #bag2 input {
+        width: 300px;
+    }
+    #bag2 button {
+        width: 150px;
+    }
+
+    .label {
+        text-align: center;
+    }
+
+    .result {
+        text-align: center;
+    }
 }
